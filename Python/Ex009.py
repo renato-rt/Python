@@ -1,4 +1,4 @@
-n = int(input('Digite um número para ver a sua tabuada: '))
+n = int(input('\033[3;30;32mDigite um número para ver a sua tabuada: \033[m'))
 print('''---------------
 {} x  1 = {}
 {} x  2 = {}

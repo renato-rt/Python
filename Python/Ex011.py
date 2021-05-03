@@ -1,4 +1,4 @@
-l = float(input('Digite a largura da parede: '))
+l = float(input('\033[2;43;2mDigite a largura da parede: \033[m'))
 a = float(input('Digite a altura da parede: '))
 area = (l*a)
 print('Sua parede tem a dimensão de {}x{} e sua área é de {:.2f}m²'.format(l,a,area))

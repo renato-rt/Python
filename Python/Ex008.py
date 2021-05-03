@@ -1,4 +1,4 @@
-m = int(input('Uma distância em metros: '))
+m = int(input('\033[2;1;33mUma distância em metros: '))
 print('''A medida de {}m corresponde a
 {}km
 {}hm

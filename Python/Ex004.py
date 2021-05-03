@@ -1,4 +1,4 @@
-n = input('Digite algo: ')
+n = input('\033[1;33;32mDigite algo: ')
 print('O tipo primitivo desse valor é: {}'.format(type(n)))
 print('Só tem espaços? {}'.format(n.isspace()))
 print('É um número? {}'.format(n.isnumeric()))
