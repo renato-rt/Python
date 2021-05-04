@@ -1,2 +1,2 @@
-nome = str(input('Digite seu nome completo: ')).strip()
-print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
+nome = str(input('\033[1;33;44mDigite seu nome completo: ')).strip()
+print('\033[mSeu nome tem Silva? {}'.format('SILVA' in nome.upper()))

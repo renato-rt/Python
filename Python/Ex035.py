@@ -1,4 +1,4 @@
-print('-='*20)
+print('\033[1;2;0m-='*20)
 print('Analisador de Triângulos')
 print('-='*20)
 r1 = float(input('\033[30mDigite o primeiro segmento: '))

@@ -1,4 +1,4 @@
-km = int(input('Digite a distância da viagem: '))
+km = int(input('\033[1;36;41mDigite a distância da viagem: '))
 vc = 0.5
 vl = 0.45
 if km <= 200:
